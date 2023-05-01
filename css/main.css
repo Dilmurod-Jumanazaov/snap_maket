@@ -1,0 +1,385 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* epilogue-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Epilogue';
+  font-weight: 400;
+  src: url('../fonts/epilogue-v17-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('../fonts/epilogue-v17-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* epilogue-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Epilogue';
+  font-weight: 500;
+  src: url('../fonts/epilogue-v17-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('../fonts/epilogue-v17-latin-500.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* epilogue-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Epilogue';
+  font-weight: 700;
+  src: url('../fonts/epilogue-v17-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('../fonts/epilogue-v17-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Epilogue",sans-serif;
+  font-weight: 500;
+  background-color: #f2f2f2;
+}
+img {
+  display: block;
+}
+/* ------------------------------------------- _ TABLE style started _ ------------------------------------------- */
+.heading {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.worker-list {
+  margin: 70px auto 0;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+.worker-list__title {
+  text-align: center;
+  padding: 15px 25px;
+  border: 2px solid black;
+}
+.worker-list__desc {
+  text-align: center;
+  padding: 15px 25px;
+  border: 2px solid black;
+}
+/* ----------------------------------------_ TABLE style end _ --------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------- */
+/* --------------------------------- CSS TABLE STYLE STARTED ---------------------------------------------- */
+.css-table {
+  margin: 70px auto 0;
+  border: 10px solid black;
+}
+.css-table__title {
+  font-size: 22px;
+  letter-spacing: 1.5px;
+}
+.table-header__title {
+  padding: 15px 25px;
+  font-size: 20px;
+  border: 2px solid black;
+}
+.table-main__title {
+  padding: 15px 25px;
+  font-size: 20px;
+  border: 2px solid black;
+}
+.table-main__desc {
+  padding: 15px 25px;
+  font-size: 18px;
+  border: 2px solid black;
+}
+
+/* ----------------------------- CSS TABLE STYLE END ---------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* ------------------------------ SNAP SITE HEADER STYLE STARTED -------------------- */
+.site-header {
+  padding-top: 21px;
+  /* padding-bottom: 171px; */
+}
+.site-header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.site-header__nav-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.site-logo {
+  margin-right: 62px;
+}
+.navigation__list {
+  margin: 0;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.navigation__item {
+  margin-left: 40px;
+  padding: 13px 0 21px;
+  list-style: none;
+}
+.navigation__item:nth-of-type(1) {
+  margin-left: 0;
+}
+.navigation__item:nth-of-type(2) {
+  margin-right: 0;
+  margin-left: 40px;
+}
+.navigation__item:nth-of-type(1)::after {
+  width: 10px;
+  height: 7px;
+  /* margin-right: 40px; */
+  margin-left: 9px;
+  display: inline-block;
+  background-image: url("../images/strelka.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.navigation__item:nth-of-type(2)::after {
+  width: 10px;
+  height: 7px;
+  /* margin-right: 40px; */
+  margin-left: 9px;
+  display: inline-block;
+  background-image: url("../images/strelka.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.navigation__link {
+  position: relative;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #686868;
+  -webkit-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+.navigation__link:hover {
+  color: #151515;
+}
+.navigation__link--last {
+  margin-right: 0;
+}
+/* ------------------------- */
+.first-item:hover .first-item__list {
+  display: block;
+}
+.first-item__list {
+  position: absolute;
+  top: 70px;
+  left: 150px;
+  width: 153px;
+  margin: 0;
+  padding: 24px;
+  display: none;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
+          box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
+}
+.first-item__items {
+  margin-bottom: 16px;
+  list-style: none;
+}
+.first-item__items::before {
+  width: 14px;
+  height: 16px;
+  display: inline-block;
+  background-image: url("../images/todolist.svg");
+  content: "";
+}
+.first-item__items:nth-child(2):before {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background-image: url("../images/calendar.svg");
+  content: "";
+}
+.first-item__items:nth-child(3):before {
+  width: 12px;
+  height: 16px;
+  display: inline-block;
+  background-image: url("../images/remeinders.svg");
+  content: "";
+}
+.first-item__items:nth-child(4):before {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background-image: url("../images/planning.svg");
+  content: "";
+}
+.first-item__items:nth-of-type(4) {
+  margin-bottom: 0;
+}
+.first-item__links {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 16px;
+  color: #686868;
+  text-decoration: none;
+}
+/* ------------------------- */
+.second-item:hover .second-item__list {
+  display: block;
+}
+.second-item__list {
+  position: absolute;
+  top: 70px;
+  margin: 0;
+  padding: 24px;
+  display: none;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
+          box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
+}
+.second-item__items {
+  margin-bottom: 16px;
+  list-style: none;
+}
+.second-item__items:nth-of-type(3) {
+  margin-bottom: 0;
+}
+.second-item__links {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 16px;
+  color: #686868;
+  text-decoration: none;
+}
+/* -------------------------- */
+.registration__login {
+  margin-right: 40px;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #686868;
+  -webkit-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+.registration__login:hover {
+  color: #151515;
+}
+.registration__register {
+  padding: 13px 22px;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 16px;
+  border: 1.5px solid #686868;
+  border-radius: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: #686868;
+  -webkit-transition: border 0.4s ease, color 0.4s ease;
+  -o-transition: border 0.4s ease, color 0.4s ease;
+  transition: border 0.4s ease, color 0.4s ease;
+}
+.registration__register:hover {
+  border: 1px solid #151515;
+  color: #151515;
+}
+/* -------------------------------- SITE HEADER STYLE END -------------------------------- */
+/* ---------------------------------HERO SECTION STYLE STARTED ----------------------------*/ 
+.intro {
+  padding: 184px 94px 122px 94px;
+  background-image: url("../images/herobackground.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 345px) calc(50% - 30px);
+  padding-top: 171px;
+}
+.intro__heading__box {
+  width: 540px;
+  margin-bottom: 108px;
+  /* padding-left: 94px; */
+}
+.intro__heading {
+  margin-top: 15px;
+  margin-bottom: 48px;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  /* letter-spacing: -1.11111px; */
+  color: #151515;
+}
+.intro__textbox {
+  width: 445px;
+}
+.intro__text {
+  margin-top: 0;
+  margin-bottom: 51px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #686868;
+}
+.intro__link {
+  padding: 15px 22px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.25px;
+  text-align: center;
+  text-decoration: none;
+  border: 1.5px solid #151515;
+  border-radius: 15px;
+  background-color: #151515;
+  color: #fafafa;
+  -webkit-transition: border 0.4s ease,background-color 0.4s ease,color 0.4s ease;
+  -o-transition: border 0.4s ease,background-color 0.4s ease,color 0.4s ease;
+  transition: border 0.4s ease,background-color 0.4s ease,color 0.4s ease;
+}
+.intro__link:hover {
+  border: 1.5px solid #151515;
+  background-color: #fff;
+  color: #151515;
+}
+.intro__logo__list {
+  margin: 0;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.intro__logo__item {
+  list-style: none;
+}
+.intro__logo {
+  margin-right: 40px;
+}
+.intro__logo__last {
+  margin-right: 0;
+} 
